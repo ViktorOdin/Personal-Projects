@@ -11,7 +11,6 @@ mail: simcitylive@gmail.com
 git: http://github.com/SCLiveP7/Project.git
 
 
+Marche pour Victor, Antony
 
-Et la tu vois????
-
-OUI la je vois très bien
+Configurer identifiant et password pour pas retaper
