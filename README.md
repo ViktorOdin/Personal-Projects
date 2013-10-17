@@ -9,8 +9,3 @@ Développeurs:
 mail: simcitylive@gmail.com
 
 git: http://github.com/SCLiveP7/Project.git
-
-
-Marche pour Victor, Antony, Djebar
-
-Configurer identifiant et password pour pas retaper
