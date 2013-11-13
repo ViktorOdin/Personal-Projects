@@ -13,4 +13,4 @@ Exemple : 5 x 5
 Utilisation : compiler en faisant 'make' et exécuter avec './colimacon'.
 il existe aussi un exécutable de test, faire 'make test'.
 
-mail : victor.oudin@etu.univ-paris-diderot.fr
+Mail : victor.oudin@etu.univ-paris-diderot.fr
