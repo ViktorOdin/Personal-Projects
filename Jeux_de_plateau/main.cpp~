@@ -1,8 +1,0 @@
-#include "play.h"
-
-int main()
-{
-  Play p;
-
-  return 0;
-}

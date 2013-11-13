@@ -1,5 +1,5 @@
 #
-# 
+# Jeux_de_plateau
 # 
 # \author Oudin Victor
 #
@@ -37,3 +37,6 @@ clean:
 remake: clean
 	rm -rf $(EXEC)
 	make
+
+mrproper: clean
+	rm -f $(EXEC)
