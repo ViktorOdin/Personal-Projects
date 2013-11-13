@@ -3,7 +3,6 @@
  *	11/04/2013
  *
  *	colimacon.h
- *	Tp4
  */
 
 #ifndef COLIMACON_H

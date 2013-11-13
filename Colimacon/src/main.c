@@ -3,7 +3,6 @@
  *	11/04/2013
  *
  *	main.c
- *	Tp4
  */
 
 #include <stdio.h>
