@@ -1,0 +1,21 @@
+CC=gcc
+FLAGS=-W -Wall -g
+EXEC=queue
+
+all: $(EXEC)
+
+queue: queue.o queue-test.o
+	$(CC) -o $@ $^ -lpthread
+
+queue.o: queue.c
+	$(CC) -o $@ -c $< $(FLAGS)
+
+queue-test.o: queue-test.c queue.h
+	$(CC) -o $@ -c $< $(FLAGS)
+
+clean:
+	rm -rf *.o
+
+remake: clean
+	rm -rf $(EXEC)
+	make

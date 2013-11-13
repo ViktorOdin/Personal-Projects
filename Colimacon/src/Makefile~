@@ -1,0 +1,25 @@
+CC=gcc
+CFLAGS=-W -Wall
+LDFLAGS=
+EXEC=main
+
+all: $(EXEC)
+
+main: fork.o thread.o main.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+main.o: main.c fork.h thread.h
+
+fork.o: fork.c fork.h
+thread.o: thread.c thread.h
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+clean:	
+	rm -f *.o
+	rm -f *.a
+
+mrproper: clean
+	rm -f $(EXEC)
+
+pkg: mrproper
+	tar -czvf ../Victor_Oudin_Tp3.tgz ../src

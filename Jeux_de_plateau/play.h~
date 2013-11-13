@@ -1,0 +1,14 @@
+#ifndef PLAY_HPP_
+#define PLAY_HPP_
+
+#include "chess.h"
+#include "minesweeper.h"
+
+class Play
+{
+public:
+  Play();
+};
+
+#endif
+
