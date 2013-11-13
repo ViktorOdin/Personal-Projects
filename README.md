@@ -1,11 +1,5 @@
-Projet PooCA - SimCityLive
+Github de Victor Oudin.
+Étudiant de master en  Ingénierie Informatique à l'Université Paris 7 Diderot.
 
-Développeurs:
--Alachaher Nadjib
--Benyahia Djebar
--Guillet Antony
--Oudin Victor
 
-mail: simcitylive@gmail.com
-
-git: http://github.com/SCLiveP7/Project.git
+mail: victor.oudin@etu.univ-paris-diderot.fr
