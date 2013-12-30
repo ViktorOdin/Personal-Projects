@@ -7,9 +7,9 @@
 
 CC=gcc
 CFLAGS=-W -Wall -g
-LDFLAGS=-lpthread	## Library -lrt
-EXEC=main		## Exec
-OBJ=main.o		## Objecte and Header
+LDFLAGS=-lpthread
+EXEC=main
+OBJ=main.o
 
 
 all: $(EXEC)
